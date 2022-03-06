@@ -116,7 +116,7 @@ func main() {
 
 func sendRequest(host string) {
 	req := fasthttp.AcquireRequest()
-	req.SetRequestURI(host)
+	req.SetRequestURI(host+"?fUcK.pUtIn")
 	res := fasthttp.AcquireResponse()
 
 	err := client.Do(req, res)
